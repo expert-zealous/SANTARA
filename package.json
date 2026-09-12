@@ -1,0 +1,12 @@
+{
+  "name": "santara",
+  "version": "1.0.0",
+  "private": true,
+  "description": "SANTARA - Setia Antar Tanpa Ragu: aplikasi antar jemput siswa berbasis jarak (PWA)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node tools/test-flow.js"
+  },
+  "engines": { "node": ">=18" }
+}
