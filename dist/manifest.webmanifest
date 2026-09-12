@@ -1,0 +1,27 @@
+{
+  "id": "santara",
+  "name": "SANTARA — Setia Antar Tanpa Ragu",
+  "short_name": "SANTARA",
+  "description": "Aplikasi antar jemput siswa: hitung biaya otomatis dari jarak, lacak penjemput online, notifikasi pembayaran.",
+  "lang": "id",
+  "dir": "ltr",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["standalone", "fullscreen", "minimal-ui"],
+  "orientation": "portrait",
+  "background_color": "#05070F",
+  "theme_color": "#05070F",
+  "categories": ["travel", "education", "productivity"],
+  "icons": [
+    { "src": "./icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "./icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "./icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" },
+    { "src": "./icons/apple-touch-icon.png", "sizes": "180x180", "type": "image/png", "purpose": "any" }
+  ],
+  "shortcuts": [
+    { "name": "Pesan antar-jemput", "short_name": "Pesan", "url": "./index.html#pesan", "icons": [{ "src": "./icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Riwayat pesanan", "short_name": "Riwayat", "url": "./index.html#riwayat", "icons": [{ "src": "./icons/icon-192.png", "sizes": "192x192" }] }
+  ],
+  "prefer_related_applications": false
+}
