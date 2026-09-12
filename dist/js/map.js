@@ -117,9 +117,9 @@ window.MapKit = (function () {
       center: [center.lat, center.lng], zoom, zoomControl: false, attributionControl: true,
       zoomAnimation: true, tap: true, dragging: opts.interactive !== false, scrollWheelZoom: opts.interactive !== false
     });
-    L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}{r}.png', {
       subdomains: 'abcd', maxZoom: 20,
-      attribution: '&copy; OSM &copy; CARTO'
+      attribution: '&copy; OpenStreetMap contributors'
     }).addTo(map);
     api._map = map;
 
